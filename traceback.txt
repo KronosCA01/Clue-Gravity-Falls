@@ -1,0 +1,20 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\Desktop\\Tareas\\7mo Semestre\\Clue\\Clue Gravity Falls\\game\\saves\\navigation.json.new' -> 'C:\\Users\\User\\Desktop\\Tareas\\7mo Semestre\\Clue\\Clue Gravity Falls\\game\\saves\\navigation.json'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\User\Documents\Renpy\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "C:\Users\User\Documents\Renpy\renpy-8.0.3-sdk\renpy\main.py", line 610, in main
+    renpy.dump.dump(False)
+  File "C:\Users\User\Documents\Renpy\renpy-8.0.3-sdk\renpy\dump.py", line 262, in dump
+    os.rename(new, filename)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\Desktop\\Tareas\\7mo Semestre\\Clue\\Clue Gravity Falls\\game\\saves\\navigation.json.new' -> 'C:\\Users\\User\\Desktop\\Tareas\\7mo Semestre\\Clue\\Clue Gravity Falls\\game\\saves\\navigation.json'
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+Clue Gravity Falls 1.0
+Mon Oct 24 00:40:44 2022
